@@ -1,24 +1,13 @@
-# README
+# Poker App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## テキストボックスで入力データとしてカードの情報を受け付け、ポーカーの役の名前を表示するWebページ
 
-Things you may want to cover:
+例:
 
-* Ruby version
+入力: S8 S7 H6 H5 S4
 
-* System dependencies
+出力:
 
-* Configuration
+S8 S7 H6 H5 S4
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ストレート
