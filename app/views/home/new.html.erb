@@ -1,0 +1,8 @@
+<div class="content">	
+	<h3>カードの手札を入力してください</h3>
+	<h3>例 : S8 S7 H6 H5 S4</h3>
+	<%= form_tag cards_path, method: :post do %>
+	  <%= text_field_tag :cards, "", :class => 'form-control' %>
+	  <%= submit_tag '送信', :class => 'btn' %>
+	<% end %>
+</div>
